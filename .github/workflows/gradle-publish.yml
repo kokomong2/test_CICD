@@ -42,5 +42,5 @@ jobs:
       run: |
           cd ./src/main/resources
           touch ./application.properties
-          echo "${{ secrets.PROPERTIES_PROD }}" > ./application-prod.properties
+          echo "${{ secrets.PROPERTIES_PROD }}" > ./application.properties
       shell: bash
